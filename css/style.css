@@ -4,10 +4,16 @@ body
     background-color: #121F3D;
 
 }
+.container{
+    border-radius: 50px;
+    border: #92C93D solid 1px;
+    width: 50%;
+    margin: 15px auto;
+}
 
 .tittle-page{
     text-align: center;
-    color: #f0f0f0;
+    color: #92C93D;
 }
 .main-content{
     margin: auto;
