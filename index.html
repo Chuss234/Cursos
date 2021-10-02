@@ -80,6 +80,26 @@
             <li>Se debe hacer checkout a la rama que requiere el los cambios</li>
             <li>El comando es git merch "nombre de la rama"</li>
         </ul>
+        <h2>
+            Configura tus llaves SSH en local
+        </h2>
+        <p>
+            
+    
+            ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+    
+            Segundo paso: Terminar de configurar nuestro sistema.
+    
+            En Windows y Linux:
+    
+            # Encender el "servidor" de llaves SSH de tu computadora:
+            eval $(ssh-agent -s)
+    
+            # Añadir tu llave SSH a este "servidor":
+            ssh-add ruta-donde-guardaste-tu-llave-privada
+    
+        </p>
     </div>
+    
 </body>
 </html>
